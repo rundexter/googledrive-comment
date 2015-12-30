@@ -4,23 +4,50 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "fileId",
+            "title":"File ID"
+        },
+        {
+            "id": "anchor",
+            "title":"Anchor"
+        },
+        {
+            "id": "content",
+            "title":"Content"
+        },
+        {
+            "id": "quotedFileContent",
+            "title":"Value"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "kind",
+            "title":"Kind"
+        },
+        {
+            "id": "author",
+            "title":"Author"
+        },
+        {
+            "id": "content",
+            "title":"Content"
+        },
+        {
+            "id": "deleted",
+            "title":"Deleted"
+        },
+        {
+            "id": "modifiedTime",
+            "title":"Modified Time"
         }
-      */
     ],
+    "icon": "dex-drive",
     "title": "Google Drive Comment on File" /* Required.A display name for the module */
 }
