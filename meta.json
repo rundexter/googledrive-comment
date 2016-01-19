@@ -48,6 +48,9 @@
             "title":"Modified Time"
         }
     ],
+    "providers": [{
+        "name": "google"
+    }],
     "icon": "dex-drive",
     "title": "Google Drive Comment on File" /* Required.A display name for the module */
 }
