@@ -49,7 +49,11 @@
         }
     ],
     "providers": [{
-        "name": "google"
+        "name": "google",
+        "scopes": [
+            "https://developers.google.com/drive/v3/reference/comments/create",
+            "https://developers.google.com/drive/v3/reference/comments/create"
+        ]
     }],
     "icon": "dex-drive",
     "title": "Google Drive Comment on File" /* Required.A display name for the module */
