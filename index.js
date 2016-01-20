@@ -1,4 +1,5 @@
-var util = require('./util.js'),
+var _ = require('lodash'),
+    util = require('./util.js'),
     google = require('googleapis'),
     service = google.drive('v3');
 
